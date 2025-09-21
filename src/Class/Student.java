@@ -88,7 +88,7 @@ import java.util.Scanner;
             System.out.println("Телефон: " + phonenum);
             System.out.println("Факультет: " + faculty);
             System.out.println("Курс: " + year);
-            System.out.println("Група: " + group);
+            System.out.println("Група : " + group);
         }
         public String getValue(int var) {
             switch (var) {

@@ -109,7 +109,7 @@ public class Main {
                     }
                     break;
                 case 4:
-                    System.out.println("Оберіть за яким критерієм ви бажаєте вивести список студентів (1-факультет 2-курс 3-група)");
+                    System.out.println("Об еріть за яким критерієм ви бажаєте вивести список студентів (1-факультет 2-курс 3-група)");
                     int l = scanner.nextInt();
                     scanner.nextLine(); // очистка буфера
                     switch (l) {
