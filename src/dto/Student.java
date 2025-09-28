@@ -1,4 +1,4 @@
-package Class;
+package dto;
 import java.util.Scanner;
 
     public class Student {
@@ -91,7 +91,7 @@ import java.util.Scanner;
             System.out.println("Група : " + group);
         }
         public String getValue(int var) {
-            switch (var) {
+                switch (var) {
                 case 1: return String.valueOf(id);
                 case 2: return surname;
                 case 3: return name;
